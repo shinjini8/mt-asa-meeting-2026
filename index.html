@@ -132,14 +132,14 @@
             <p><strong>Date:</strong> October 2, 2026</p>
             <p><strong>Location:</strong> Montana State University, Wilson 001</p>
         </div>
-        <a href="https://forms.gle/MfqgyAb817nqVv5D9" target="_blank" class="btn">Register</a>
+   <!--     <a href="https://forms.gle/MfqgyAb817nqVv5D9" target="_blank" class="btn">Register</a> -->
     </header>
 
     <main>
        <!-- Submission Guidelines -->
-        <section>
+ <!--       <section>
             <p><em><strong>Note:</strong> General event registration will remain open until <strong>September 30, 2026</strong>.</em></p>
-        </section>
+        </section> -->
 
         <!-- Keynote Speaker Placeholder 
         <section>
@@ -191,7 +191,7 @@
                 <tr>
                     <td style="padding:10px; vertical-align:top;">11:00–11:20</td>
                     <td style="padding:10px; vertical-align:top;"><strong>Nairanjana Dasgupta</strong></td>
-                    <td style="padding:10px; vertical-align:top;">r-Power an Alternative Way to Look at Multiplicity</td>
+                    <td style="padding:10px; vertical-align:top;">Looking at issues in GenAI with a statistical lens</td>
                 </tr>
                 <tr>
                     <td style="padding:10px; vertical-align:top;">11:20–11:40</td>
@@ -248,6 +248,16 @@
                     <td style="padding:10px; vertical-align:top;"><strong>Bernard Sefah</strong></td>
                     <td style="padding:10px; vertical-align:top;">Modeling Cross-Disease Vulnerability in Africa Using Environmental and Social Determinants to Predict Malaria Risk and Susceptibility to Dengue, Chikungunya, and Measles</td>
                 </tr>
+                <tr>
+                    <td style="padding:10px; vertical-align:top;"><strong>Jack Ruder</strong></td>
+                    <td style="padding:10px; vertical-align:top;">Diffusion-Driven State Space Models</td>
+                </tr>
+            </table>
+
+                      <tr>
+                    <td style="padding:10px;"><strong>3:10–4:00 PM</strong></td>
+                    <td style="padding:10px;"><strong>MT Chapter Business Meeting</strong></td>
+                </tr>
             </table>
 
                       <tr>
@@ -300,11 +310,11 @@
             <strong>Nairanjana Dasgupta</strong><br>
             <em style="color:#666666;"> — Washington State University</em><br>
             <span style="color:#0066cc;">
-                r-Power an Alternative Way to Look at Multiplicity
+                Looking at issues in GenAI with a statistical lens
             </span>
         </summary>
         <p style="margin-top:12px; padding-left:15px;">
-            In these days of large-scale testing, there is always a question of how we control for Type I errors.  Many methods abound in the literature for this issue.  In this talk, I will introduce a different way of looking at multiplicity, which relies on reliability of a list rather than significance level.  This was introduced by Dasgupta, Lazar and Genz (Sankhya, 2016) and has been followed up by Sijuwade, Chakraborty and Dasgupta (Metrika, 2023).  I will do a short presentation of the basic idea of r-power and how we are using it in GenAI.
+            As the hype of GenAI becomes pervasive, I would like to take a step back and discuss some statistical concepts that need to be thought about.  Where does stochasticity, statistical parity, unbiasedness, fairness (which are hallmarks of statistical thinking) fit in GenAI.  The bigger question I am working on is how to fit in variability along with accuracy in algorithms.  In this short talk I will discuss a couple of recent case studies and discuss the very simple statistical reasons why sometimes these GenAI models fail catastrophically.  I will end with the accuracy, fairness conundrum.
         </p>
     </details>
 
@@ -493,6 +503,24 @@ to real-world biological datasets.
         </summary>
         <p style="margin-top:12px; padding-left:15px;">
             Vector-borne and vaccine-preventable diseases such as malaria, dengue, chikungunya, and measles remain major public health challenges and a leading cause of morbidity and mortality in Africa, accounting for a significant proportion of the region’s disease burden. Factors including fragile health systems, rapid urbanization, and climate variability create an environment conducive to disease outbreaks and hinder socio-economic development. Despite the interconnected nature of these diseases, cross-disease vulnerability modeling using integrated environmental and social determinants remains limited in the African context.
+        </p>
+    </details>
+            
+    <!-- Jack Ruder -->
+    <details style="margin-bottom:18px;">
+        <summary style="cursor:pointer;">
+            <strong>Bernard Sefah</strong><br>
+            <em style="color:#666666;"> — Montana State University</em><br>
+            <span style="color:#0066cc;">
+                Diffusion-Driven State Space Models
+            </span>
+        </summary>
+        <p style="margin-top:12px; padding-left:15px;">
+            In many domains, practitioners seek models that produce accurate forecasts while faithfully capturing latent system dynamics. 
+Existing approaches typically sacrifice one of these goals: deep state space models often assume Gaussian latent transitions, limiting fit and forecasting, while diffusion models are highly expressive but lack principled inference for the underlying dynamics. To combine the strengths of both, we introduce the Diffusion-Driven State Space Model (DDSSM), which replaces the conventional Gaussian transition distribution with a diffusion model. Our DDSSM resolves the open problem of how to jointly train an autoencoder and a diffusion model on sequential data, thereby extending the literature on latent diffusion models for time series. Moreover, we find that the DDSSM empirically outperforms a state-of-the-art deep SSM at fitting and forecasting a simulated time series with multimodal transitions.
+
+        </p>
+    </details>
         </p>
     </details>
 
